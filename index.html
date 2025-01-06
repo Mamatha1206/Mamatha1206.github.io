@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>RESPONSIVE PERSONAL PORTFOLIO WEBSITE </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Eudulakanti Mamatha</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/shreya6360/Responsive-personal_portfolio"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxs-envelope'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/shreya-shreya-421886227"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <a href="C:\Users\shrey\Downloads\B.-Software-Engineer.docx" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/10/computer_engineer-compare-page.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="about-left">
+                    <h2 class="heading">About<span>Me</span></h2>
+                    <h3>Occupation:</h3><p>DevOps Engineer</p>
+                    <h3>Interests:</h3><p>Drawing, Reading Books, Innovation</p>
+                    <h3>Skills:</h3><p>Networking, Communication, Leadership, Positive Thinking.</p>
+                    <h3>Office:</h3><p>[U.ST]</p>
+                </div>
+                <div class="about-right">
+                    <p>A DevOps Engineer is responsible for automating and optimizing the development and deployment pipeline. They focus on continuous integration (CI), continuous delivery (CD), infrastructure management, and enhancing collaboration between development and IT operations teams. A key part of the role is automating repetitive tasks to improve efficiency and reduce errors.</p>
+                    <a href="#" class="btn">Read More</a>   
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="Education" id="education">
+            <h2 class="heading">Education<span>Details</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <h3>Btech</h3>
+                    <p>I have graduated from BVRIT HYDERABAD College of Engineering for Women in the stream of Information Technology.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <h3>Diploma</h3>
+                    <p>I have completed my diploma from VNR VJIET in the stream of Electronics and Communication Engineering.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <h3>Schooling</h3>
+                    <p>I have done my higher schooling from TVR Model High School.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="Projects" id="projects">
+            <h2 class="heading">Project<span>Details</span></h2>
+            <div class="services-box">
+                <h4>Project Title: Secure Digital Voting System Using Blockchain Technology</h4>
+                <p>Tools and Technologies: Blockchain, Ethereum, Solidity, Ganache, SHA-256, Face-API.</p>
+                <p>Description: A blockchain-based voting system ensures secure, transparent voting using smart contracts and cryptography. Online voting uses blockchain and tools like Solidity and OpenCV to overcome traditional voting limitations.</p>
+                
+            </div>
+
+            <div class="services-box">
+                <h4>Project Title: Body Fat Estimator Using Ensemble Methods</h4>
+                <p>Tools and Technologies: Machine learning, Google Colab, Vs Code.</p>
+                <p>Description: The project facilitates precise estimation of body fat percentage using ensemble methods.</p>
+                
+            </div>
+
+            <div class="services-box">
+                <h4>Project Title: Forest Cover Prediction</h4>
+                <p>The study area includes four wilderness areas located in the Roosevelt National Forest of Northern Colorado. We predicted an integer classification for the forest cover type based on the ID of various cover types.</p>
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                    <input type="text" name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Eudulakanti Mamatha | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
